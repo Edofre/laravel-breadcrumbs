@@ -1,18 +1,24 @@
 {
-  "name": "davejamesmiller/laravel-breadcrumbs",
+  "name": "edofre/laravel-breadcrumbs",
   "description": "A simple Laravel-style way to create breadcrumbs in Laravel 4+.",
   "keywords": [
-    "laravel"
+    "laravel",
+    "breadcrumbs",
+    "fork"
   ],
-  "homepage": "https://laravel-breadcrumbs.readthedocs.io/",
+  "homepage": "https://github.com/Edofre/laravel-breadcrumbs",
+  "license": "MIT License",
   "authors": [
     {
       "name": "Dave James Miller",
       "email": "dave@davejamesmiller.com",
       "homepage": "https://davejamesmiller.com/"
+    },
+    {
+      "name": "Edo Freriks",
+      "email": "edofre@gmail.com"
     }
   ],
-  "license": "MIT License",
   "require": {
     "php": ">=5.4.0",
     "illuminate/support": "5.*",
@@ -27,6 +33,11 @@
   "autoload": {
     "psr-4": {
       "DaveJamesMiller\\Breadcrumbs\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "DaveJamesMiller\\Breadcrumbs\\Test\\": "tests"
     }
   },
   "scripts": {
